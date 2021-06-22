@@ -1,0 +1,1494 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Muli, Arial;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.1em;
+    background-color: rgb(41, 41, 41);
+}
+
+nav ul:first-of-type li button {
+    display: block;
+    margin-left: auto;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(187, 228, 255);
+    background-color: rgb(41, 41, 41);
+    border: 1.5px solid rgb(187, 228, 255);
+    padding: 0.5em 0.5em 0.5em 0.9em;
+    border-radius: 2px;
+    width: 4em;
+}
+
+nav ul:nth-of-type(2) {
+    opacity: 0%;
+    position: absolute;
+    margin-bottom: 0.5em;
+}
+
+nav ul:nth-of-type(2).showMenu {
+    opacity: 100%;
+    position: relative;
+}
+
+.mainMenu {
+    color: rgb(187, 228, 255);
+}
+
+
+nav ul li {
+    margin: 1em;
+}
+
+li a {
+    cursor: pointer;
+    color: rgb(187, 228, 255);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+p {
+    padding: 0em 1em 1em 0em;
+    max-width: 40em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(187, 228, 255);
+    margin: 5px 0;
+}
+
+.dropdown {
+    border: 1px solid rgb(41, 41, 41);
+}
+
+button a {
+    font-size: 1.2em;
+}
+
+article {
+    display: block;
+}
+
+
+/*Section 1 Home.............................................................*/
+
+section:nth-of-type(1) {
+    font-size: 1em;
+    text-align: center;
+    min-height: 100vh;
+}
+
+section:nth-of-type(1) h1 {
+    padding-top: 45vh;
+    font-size: 3em;
+    text-align: center;
+    margin: 0em 1em 0.5em 1em;
+}
+
+section:nth-of-type(1) h2 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0em 1em;
+    font-weight: 300;
+}
+
+
+#project-pagina h1 {
+    padding-top: 1em;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+
+#project-pagina p {
+
+    margin-left: 2em;
+    text-align: left;
+}
+
+#project-pagina img {
+min-width: 20em;
+max-width: 30em;
+}
+
+#home a {
+    padding-top: 70px;
+}
+
+#home a span {
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid rgb(41, 41, 41);
+    border-bottom: 1px solid rgb(41, 41, 41);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+
+/*Section 2 About Me.............................................................*/
+
+.aboutme {
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 1em;
+}
+
+
+section:nth-of-type(2) h2 {
+    padding: 1.5em 1em 0em 1rem;
+
+}
+
+section:nth-of-type(2) img {
+    padding-top: 6em;
+
+}
+
+section:nth-of-type(2) h3:nth-of-type(1) {
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+}
+
+section:nth-of-type(2) h3:nth-of-type(2) {
+    padding: 1.5em 0em 0em 0em;
+    text-align: center;
+}
+
+section:nth-of-type(2) p {
+    padding: 0.5em 1em 0em 1rem;
+    justify-content: center;
+}
+
+section:nth-of-type(2) button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1.5em 4em;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(41, 41, 41);
+    ;
+    border-radius: 2px;
+    color: rgb(41, 41, 41);
+    background-color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+section:nth-of-type(2) button:hover {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    padding: 1.5em 4em;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+    /*Section 3 Skillset.............................................................*/
+
+#myskills {
+    padding-bottom: 3em;
+ }
+
+#myskills h2 {
+    padding-left: 1rem;
+}
+
+
+.contentcreation {
+    text-align: center;
+    padding: 1em 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+.animation {
+    text-align: center;
+    padding: 1em 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+.uiandux {
+    text-align: center;
+    padding: 1em 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+.youtubestartup {
+    text-align: center;
+    padding: 1em 2em;
+    margin: auto;
+    margin-bottom: 5em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+.contentcreation:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(187, 228, 255);
+    border: 2px solid rgb(41, 41, 41);
+    transition-duration: 0.5s;
+}
+
+.animation:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(187, 228, 255);
+    border: 2px solid rgb(41, 41, 41);
+    transition-duration: 0.5s;
+}
+
+.uiandux:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(187, 228, 255);
+    border: 2px solid rgb(41, 41, 41);
+    transition-duration: 0.5s;
+}
+
+.youtubestartup:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(187, 228, 255);
+    border: 2px solid rgb(41, 41, 41);
+    transition-duration: 0.5s;
+}
+
+/*Section 4 Content Creation.............................................................*/
+
+section:nth-of-type(4) {
+    min-height: 100vh;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    padding-bottom: 1em;
+}
+
+section:nth-of-type(4) > article p {
+    padding: 0em 0em 2em 1em;
+}
+
+section:nth-of-type(4) h2 {
+    padding: 2em 0em 0.2em 1rem;
+}
+
+section:nth-of-type(4) h3 {
+    padding: 1em 1em 0em 0em;
+}
+
+.skillset a {
+    display: block;
+}
+
+.yt {
+    text-align: center;
+    padding: 0em 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+.yt p {
+    padding: 0;
+}
+
+.tw {
+    text-align: center;
+    padding: 0em 2em;
+    margin: auto;
+    margin-bottom: 2em;
+    max-width: 80vw;
+    border: 2px solid rgb(187, 228, 255);
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+.tw p {
+    padding: 0;
+}
+
+.yt:hover {
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    transition-duration: 0.5s;
+}
+
+.tw:hover {
+    background-color: #6441a5;
+    border: 2px solid #6441a5;
+    transition-duration: 0.5s;
+}
+
+section:nth-of-type(4) img {
+    max-width: 35%;
+    margin-bottom: 3em;
+}
+
+/*Section 5 Animation.............................................................*/
+
+
+section:nth-of-type(5) h2 {
+    margin: 1em 0em 0em 1rem;
+
+}
+
+section:nth-of-type(5) p {
+    margin-left: 1rem;
+
+}
+
+section:nth-of-type(5) p:nth-of-type(2) {
+    margin: 0em 0em 2.5em 1rem;
+
+}
+
+section:nth-of-type(5) a {
+    width: 50vw;
+    margin: 3em auto 5em;
+    margin-left: 1em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+section:nth-of-type(5) a:hover {
+    margin: 3em auto 5em;
+    margin-left: 1em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #0DA084;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.wyrm img {
+    padding-top: 3em;
+    width: 60%;
+    height: 60%;
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+/*Section 6 UI & UX.............................................................*/
+
+section:nth-of-type(6) {
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 3em;
+}
+
+section:nth-of-type(6) h2 {
+    padding-top: 1em;
+    margin: 1em 0em 1em 1rem;
+
+}
+
+section:nth-of-type(6) p {
+    margin: 0em 0em 2.5em 1em;
+
+}
+
+.check {
+    flex: 1;
+    padding-top: 13%;
+    justify-content: center;
+}
+
+.check img {
+    width: 60%;
+    height: 60%;
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+
+section:nth-of-type(6) a {
+    width: 50vw;
+    margin: 3em auto 5em;
+    margin-left: 1em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+section:nth-of-type(6) a:hover {
+    width: 50vw;
+    margin: 3em auto 5em;
+    margin-left: 1em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #65A2F5;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+/*Section 7 YouTuber Advisor.............................................................*/
+
+
+section:nth-of-type(7) h2 {
+    padding-top: 1em;
+    margin: 1em 0em 1em 1rem;
+
+}
+
+section:nth-of-type(7) p {
+    margin: 0em 0em 2.5em 1em;
+
+}
+
+
+/*Section 8 Portfolio.............................................................*/
+
+section:nth-of-type(8) {
+    min-height: 100vh;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding-bottom: 1em;
+}
+
+section:nth-of-type(8) h2 {
+    padding-top: 1em;
+    margin: 1em 0em 1em 1rem;
+
+}
+
+section:nth-of-type(8) h3 {
+    margin-left: 1rem;
+}
+
+section:nth-of-type(8) p {
+    margin: 0em 0em 2.5em 1rem;
+
+}
+
+section:nth-of-type(8) a {
+    display: block;
+    text-align: center;
+    padding: 1em 2em 1em;
+    margin: auto;
+    margin-bottom: 3em;
+    max-width: 60vw;
+    border: 2px solid rgb(187, 228, 255);
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+section:nth-of-type(8) article h4 {
+    font-size: 1.2em;
+}
+
+section:nth-of-type(8) article img {
+    width:100%;
+}
+
+section:nth-of-type(8) article p {
+    margin-top: 3em;
+}
+
+section:nth-of-type(8) a:hover {
+    text-align: center;
+    padding: 1em 2em 1em;
+    margin: auto;
+    margin-bottom: 3em;
+    max-width: 60vw;
+    border: 4px solid #FFD700;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+
+
+/*Section 8 Footer .............................................................*/
+
+footer {
+    padding: 1em 1em 1em 1em;
+    color: black;
+    background-color: rgb(248, 248, 248);
+}
+
+
+footer li {
+    display: inline;
+
+}
+
+#youtubesvg {
+    max-width: 2em;
+    margin: 0em 2em 0em 0em;
+    fill: #E62117;
+
+}
+
+#twitchsvg {
+    max-width: 2em;
+    margin-right: 2em;
+    fill: #6441a5;
+}
+
+#twittersvg {
+    max-width: 2em;
+    margin-right: 2em;
+    fill: #1DA1F2;
+}
+
+#linkedinsvg {
+    max-width: 2em;
+    margin-right: 2em;
+    fill: #1DA1F2;
+}
+
+
+/*project pages .............................................................*/
+
+.projectpages img {
+    padding: 8em 0em 3em 0em;
+    max-width: 25em;
+}
+
+.projectpages p {
+    text-align: left;
+}
+
+.conceptbox a {
+    display: block;
+    max-width: 17em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+.conceptbox a:hover {
+    display: block;
+    max-width: 17em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #65A2F5;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+/*Mediaquery DESKTOP ..........................................................
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+@media only screen and (min-width: 900px) {
+
+    * {
+        box-sizing: border-box;
+
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Muli, Arial;
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    #project-pagina img {
+        margin-top: 3em;
+        }
+
+    header {
+        position: fixed;
+        font-weight: bold;
+        width: 100%;
+        background-color: rgb(41, 41, 41);
+    }
+
+    nav ul:first-of-type {
+        display: none;
+        margin-left: auto;
+        font-size: 1em;
+        font-weight: bold;
+        color: rgb(187, 228, 255);
+        background-color: rgb(41, 41, 41);
+        border: 1.5px solid rgb(187, 228, 255);
+        padding: 0.5em 1em 0.5em 1.2em;
+        border-radius: 2px;
+        width: 5em;
+    }
+
+    nav ul:nth-of-type(2) {
+        opacity: 100%;
+        position: relative;
+        margin-bottom: 0.5em;
+    }
+
+    nav ul:nth-of-type(2).showMenu {
+        opacity: 100%;
+        position: relative;
+
+    }
+
+    .mainMenu {
+        color: rgb(187, 228, 255);
+
+    }
+
+    .dropdown {
+        border: 1px solid rgb(41, 41, 41);
+    }
+
+
+    nav ul li {
+        display: inline-block;
+        text-align: right;
+    }
+
+    li a {
+        cursor: pointer;
+        color: rgb(187, 228, 255);
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    p {
+        padding: 0em 1em 1em 0em;
+        max-width: 40em;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    button a {
+        font-size: 1.2em;
+    }
+
+    article {
+        display: block;
+    }
+
+
+    /*Section 1 Home.............................................................*/
+
+    section:nth-of-type(1) {
+        font-size: 1em;
+        text-align: center;
+        min-height: 100vh;
+
+
+    }
+
+    section:nth-of-type(1) h1 {
+        padding-top: 45vh;
+        font-size: 5em;
+        text-align: center;
+        margin: 0em 1em 0.5em 1em;
+
+    }
+
+    section:nth-of-type(1) h2 {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0em 1em;
+        font-weight: 300;
+    }
+
+
+    #home a {
+        padding-top: 70px;
+    }
+
+    #home a span {
+        position: absolute;
+        top: 90vh;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid rgb(41, 41, 41);
+        border-bottom: 1px solid rgb(41, 41, 41);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb05 1.5s infinite;
+        animation: sdb05 1.5s infinite;
+        box-sizing: border-box;
+    }
+
+    @-webkit-keyframes sdb05 {
+        0% {
+            -webkit-transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    @keyframes sdb05 {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    /*Section 2 About Me.............................................................*/
+
+    .aboutme {
+        display: flex;
+        min-height: 100vh;
+        background-color: rgb(248, 248, 248);
+        padding-left: 2em;
+
+
+    }
+
+    .box1 {
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+        padding: 5em 0em 0em 0em;
+        order: 2;
+    }
+
+    .box2 {
+        flex: 1;
+        margin-top: 7em;
+        order: 1;
+        justify-content: center;
+        max-width: 45em;
+    }
+
+    .box2 p {
+        flex: 1;
+        order: 1;
+        justify-content: center;
+    }
+
+    section:nth-of-type(2) h2 {
+        font-size: 3rem;
+
+    }
+
+    section:nth-of-type(2) h3 {
+        padding: 0em 1em 1em 0em;
+        font-size: 2em;
+        text-align: center;
+
+    }
+
+    section:nth-of-type(2) img {
+        margin-bottom: 0em;
+        max-width: 25em;
+
+    }
+
+    section:nth-of-type(2) h3:nth-of-type(1) {
+        padding: 0.5em 0em 0em 0em;
+        text-align: center;
+    }
+
+    section:nth-of-type(2) h3:nth-of-type(2) {
+        padding: 1.5em 1em 1em 0em;
+        text-align: center;
+    }
+
+    section:nth-of-type(2) p {
+
+        font-size: 1.3em;
+        max-width: 40em;
+        justify-content: center;
+    }
+
+    section:nth-of-type(2) button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        display: block;
+        text-align: center;
+        border: 2px solid rgb(41, 41, 41);
+        border-radius: 2px;
+        color: rgb(41, 41, 41);
+        background-color: white;
+        font-weight: bold;
+    }
+
+    section:nth-of-type(2) button:hover {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        border: 2px solid rgb(41, 41, 41);
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(41, 41, 41);
+        font-weight: bold;
+    }
+
+
+    /*Section 3 Skillset.............................................................*/
+
+
+
+    #myskills h2 {
+        font-size: 3em;
+        padding-top: 1em;
+        padding-left: 3rem;
+    }
+
+    .skillset {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: stretch;
+        justify-content: center;
+        padding-top: 3em;
+
+    }
+
+    .contentcreation {
+        flex: 1;
+        text-align: center;
+        padding: 1em 2em;
+        margin: 0em 1em 0em 4em;
+        margin-bottom: 1em;
+        max-width: 25em;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+
+    .animation {
+        flex: 1;
+        text-align: center;
+        padding: 1em 2em;
+        margin: 0em 1em;
+        margin-bottom: 1em;
+        max-width: 25em;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+
+    .uiandux {
+        flex: 1;
+        text-align: center;
+        padding: 1em 2em;
+        margin: 0em 1em;
+        margin-bottom: 1em;
+        max-width: 25em;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+
+    .youtubestartup {
+        flex: 1;
+        text-align: center;
+        padding: 1em 2em;
+        margin: 0em 4em 0em 1em;
+        margin-bottom: 1em;
+        max-width: 25em;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+
+    .contentcreation:hover {
+        background-color: rgb(41, 41, 41);
+        color: rgb(187, 228, 255);
+        border: 2px solid rgb(41, 41, 41);
+        transition-duration: 0.5s;
+    }
+
+    .animation:hover {
+        background-color: rgb(41, 41, 41);
+        color: rgb(187, 228, 255);
+        border: 2px solid rgb(41, 41, 41);
+        transition-duration: 0.5s;
+    }
+
+    .uiandux:hover {
+        background-color: rgb(41, 41, 41);
+        color: rgb(187, 228, 255);
+        border: 2px solid rgb(41, 41, 41);
+        transition-duration: 0.5s;
+    }
+
+    .youtubestartup:hover {
+        background-color: rgb(41, 41, 41);
+        color: rgb(187, 228, 255);
+        border: 2px solid rgb(41, 41, 41);
+        transition-duration: 0.5s;
+    }
+
+    /*Section 4 Content Creation.............................................................*/
+
+    section:nth-of-type(4) {
+        min-height: 100vh;
+        background-color: rgb(41, 41, 41);
+        color: rgb(255, 255, 255);
+        padding-bottom: 2em;
+    }
+
+    section:nth-of-type(4) h2 {
+        font-size: 3em;
+        margin-left: 2rem;
+    }
+
+    section:nth-of-type(4) > article p:nth-of-type(1),
+    section:nth-of-type(4) > article p:nth-of-type(2) {
+        margin-left: 2rem;
+    }
+
+    section:nth-of-type(4) h3 {
+        padding: 1em 1em 0em 1em;
+
+    }
+
+    section:nth-of-type(4) img {
+        width: 35%;
+        margin: 2em auto 2em;
+    }
+
+
+    .test {
+        font-size: 1.3em;
+        max-width: 40em;
+        justify-content: center;
+    }
+
+    .youtubetwitch {
+        display: flex;
+        justify-content: center;
+    }
+
+    .yt {
+        flex: 1;
+        justify-content: center;
+        max-width: 20em;
+        text-align: center;
+        padding: 0em 2em 2em;
+        margin: 0% 0% 0% 10%;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+
+    }
+
+    .yt:hover {
+        background-color: #FF0000;
+        border: 2px solid #FF0000;
+        transition-duration: 0.5s;
+
+    }
+
+    .tw {
+        flex: 1;
+        justify-content: center;
+        max-width: 20em;
+        text-align: center;
+        padding: 0em 2em;
+        margin: 0% 10% 0% 10%;
+        border: 2px solid rgb(187, 228, 255);
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+
+    .tw:hover {
+        background-color: #6441a5;
+        border: 2px solid #6441a5;
+        transition-duration: 0.5s;
+    }
+
+    /*Section 5 Animation.............................................................*/
+
+    .flexanimation {
+        display: flex;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+
+    .ani {
+        flex: 1;
+        padding-left: 2em;
+    }
+
+    .ani p {
+        font-size: 1.3em;
+    }
+
+    .wyrm {
+        flex: 1;
+    }
+
+    section:nth-of-type(5) h2 {
+        font-size: 3em;
+
+    }
+
+    section:nth-of-type(5) a {
+        margin: 3em auto 5em;
+        margin-left: 1rem;
+        padding: 1.5em 4em;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(41, 41, 41);
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+
+    section:nth-of-type(5) a:hover {
+        margin: 3em auto 5em;
+        margin-left: 1em;
+        padding: 1.5em 4em;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: #0DA084;
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+
+
+
+    section:nth-of-type(5) img {
+        width: 80%;
+        height: 80%;
+        max-width: 50em;
+        max-height: 50em;
+        object-fit: contain;
+    }
+
+    /*Section 6 UI & UX.............................................................*/
+
+    #ui {
+        background-color: rgb(248, 248, 248);
+        display: flex;
+
+    }
+
+
+    .uiux {
+        flex: 1;
+        padding-left: 2em;
+    }
+
+    .uiux p {
+        font-size: 1.3em;
+    }
+
+    .check {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .check img {
+        width: 60%;
+        height: 60%;
+        max-width: 60%;
+        max-height: 60%;
+        object-fit: contain;
+    }
+
+
+    section:nth-of-type(6) {
+        min-height: 60vh;
+    }
+
+    section:nth-of-type(6) h2 {
+        font-size: 3rem;
+
+    }
+
+
+    section:nth-of-type(6) a {
+        margin: 3em auto 5em;
+        margin-left: 1em;
+        padding: 1.5em 4em;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(41, 41, 41);
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+
+    section:nth-of-type(6) a:hover {
+        margin: 3em auto 5em;
+        margin-left: 1em;
+        padding: 1.5em 4em;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        background-color: #65A2F5;
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+
+    /*Section 7 YouTuber Advisor.............................................................*/
+
+    section:nth-of-type(7) {
+        color: rgb(41, 41, 41);
+        background-color: white;
+        padding-left: 2em;
+    }
+
+    section:nth-of-type(7) h2 {
+        font-size: 3em;
+
+    }
+
+
+    .flexstartup {
+        display: flex;
+        /* width: 100vw; */
+        padding-top: 1em;
+    }
+
+    .start {
+        flex: 1;
+    }
+
+    .start p {
+        font-size: 1.3em;
+    }
+
+    .youtubeplan {
+        flex: 1;
+        padding-top: 7em;
+        justify-content: center;
+    }
+
+    .youtubeplan img {
+        padding-top: 3em;
+        width: 60%;
+        height: 60%;
+        max-width: 60%;
+        max-height: 60%;
+        object-fit: contain;
+    }
+
+    /*Section 8 Portfolio.............................................................*/
+
+    section:nth-of-type(8) {
+        min-height: 100vh;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        padding-left: 2em;
+
+    }
+
+    .portfolio p {
+        font-size: 1.3em;
+    }
+
+    section:nth-of-type(8) h2 {
+        font-size: 3em;
+        padding-top: 3em;
+    }
+
+    section:nth-of-type(8) h3 {
+        font-size: 1.5em;
+    }
+
+    section:nth-of-type(8) a {
+        text-align: center;
+        padding: 1em 0em 1em;
+        margin: 1em 1em 3em 1em;
+        border: 2px solid rgb(187, 228, 255);
+        background-color: white;
+        color: rgb(41, 41, 41);
+        border-radius: 3px;
+        transition-duration: 0.2s;
+        width: 25%;
+    }
+
+    section:nth-of-type(8) article h4 {
+        font-size: 1.2em;
+    }
+
+    section:nth-of-type(8) article img {
+        width: 90%;
+    }
+
+    section:nth-of-type(8) article p {
+        margin-top: 3em;
+    }
+
+    section:nth-of-type(8) a:hover {
+        text-align: center;
+        padding: 1em 0em 1em;
+        margin: 1em 1em 3em 1em;
+        border: 4px solid #FFD700;
+        border-radius: 3px;
+        transition-duration: 0.2s;
+        width: 25%;
+    }
+
+    .studyassignments {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .studyassignments img {
+        max-width: 14em;
+    }
+
+    .flexcontentcreation {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .creationproject p {
+        font-size: 1.3rem;
+    }
+
+    .personalprojects {
+        font-size: 1.3rem;
+    }
+
+    .freetime {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    /*Section 8 Footer .............................................................*/
+
+    footer {
+        padding: 1em 1em 1em 1em;
+        color: rgb(41, 41, 41);
+        background-color: rgb(248, 248, 248);
+        padding-left: 2em;
+    }
+
+    footer h2 {
+        padding-top: 1em;
+
+    }
+
+
+    footer li {
+        display: inline;
+    }
+
+    /*project pages .............................................................*/
+
+    .projectpages {
+        display: flex;
+    }
+
+    .imgbox {
+        flex: 1;
+        order: 1;
+
+    }
+
+    .imgbox img {
+        padding-top: 3em;
+        width: 60%;
+        height: 60%;
+        max-width: 60%;
+        max-height: 60%;
+        object-fit: contain;
+    }
+
+    .conceptbox {
+        flex: 1;
+
+    }
+
+    .conceptbox a {
+        display: block;
+        max-width: 17em;
+        margin-left: 2em;
+        padding: 1.5em 4em;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(41, 41, 41);
+        font-weight: bold;
+        transition-duration: 0.5s;
+
+    }
+
+
+}
