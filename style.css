@@ -231,16 +231,14 @@ section:nth-of-type(2) p {
     justify-content: center;
 }
 
-section:nth-of-type(2) button {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    margin-bottom: 3em;
+.box2 a {
+    display: flex;
+    max-width: 15em;
+    margin-bottom: 1em;
+    margin-left: 1rem;
     padding: 1.5em 4em;
-    display: block;
     text-align: center;
     border: 2px solid rgb(41, 41, 41);
-    ;
     border-radius: 2px;
     color: rgb(41, 41, 41);
     background-color: white;
@@ -248,12 +246,11 @@ section:nth-of-type(2) button {
     transition-duration: 0.5s;
 }
 
-section:nth-of-type(2) button:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
+.box2 a:hover {
+    display: flex;
+    max-width: 15em;
+    margin-left: 1rem;
     padding: 1.5em 4em;
-    display: block;
     text-align: center;
     border: 2px solid rgb(41, 41, 41);
     border-radius: 2px;
@@ -965,29 +962,32 @@ footer li {
         justify-content: center;
     }
 
-    section:nth-of-type(2) button {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3em;
-        display: block;
+    .box2 a {
+        display: flex;
+        max-width: 15em;
+        margin-left: 1rem;
+        padding: 1.5em 4em;
         text-align: center;
         border: 2px solid rgb(41, 41, 41);
         border-radius: 2px;
         color: rgb(41, 41, 41);
         background-color: white;
         font-weight: bold;
+        transition-duration: 0.5s;
     }
 
-    section:nth-of-type(2) button:hover {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    .box2 a:hover {
+        display: flex;
+        max-width: 15em;
+        margin-left: 1rem;
+        padding: 1.5em 4em;
         text-align: center;
         border: 2px solid rgb(41, 41, 41);
         border-radius: 2px;
         color: white;
         background-color: rgb(41, 41, 41);
         font-weight: bold;
+        transition-duration: 0.5s;
     }
 
 
