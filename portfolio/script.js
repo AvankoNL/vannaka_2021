@@ -6,7 +6,7 @@ const menuButton = document.querySelector('.dropdown');
 const menuLijst = document.querySelector('ul:nth-of-type(2)');
 
 menuButton.addEventListener("click", function(){
-console.log('hoi');
+console.log('check');
 
 if(menuLijst.classList.contains("showMenu")){
     menuLijst.classList.remove("showMenu");
